@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  jhipster-app:
+    build: ../../..
+    container_name: jhipster-app
+    environment:
+    ports:
+      - 8081:8081
